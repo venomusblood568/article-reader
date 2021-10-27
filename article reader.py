@@ -13,12 +13,13 @@ Along the way, readers will be inspired and entertained with true stories about 
 
 Atomic Habits will reshape the way you think about progress and success and give you the tools and strategies you need to transform your habits—whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, and achieve success that lasts."""
 
-language = "en"   #we are assigning the language
-gtts_tranformer = gTTS(text=article,lang=language)
+language = "en"   #we are assigning the language. # here we are saying in which language this article is going to be converted
+gtts_tranformer = gTTS(text=article,lang=language)   # and here word to audio is going to change 
 #below line will save with the name as atmoic_habit_summary in mp3
-gtts_tranformer.save("atmoic_habit_summary.mp3")
+gtts_tranformer.save("atmoic_habit_summary.mp3") # here we saying to save that filein as whatever name you have given to the file in "" with .mp3 extesion 
 # in reading and converting in mp3 take few min depending on the length of article 
 # so i want to be know hence i  put a print() statement    
-print("the article you told me to read and convert to mp3 is done master 😁")
+print("the article you told me to read and convert to mp3 is done master 😁")  # we saying to give this statement after the conversion get it done.
+
 
 
